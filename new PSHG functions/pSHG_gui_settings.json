@@ -1,0 +1,18 @@
+{
+  "input1": true,
+  "input2": false,
+  "input3": false,
+  "input4": true,
+  "input5": false,
+  "input6": true,
+  "roi_A": true,
+  "roi_B": false,
+  "roi_C": false,
+  "thresh": "",
+  "sigma_phi2_max": "2",
+  "pool_sigma": "2",
+  "min_feature": "50",
+  "close_radius": "2",
+  "instrument": "123D - forward SHG",
+  "mask_mode": "trust"
+}
