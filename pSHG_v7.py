@@ -36,7 +36,9 @@ from instruments import get_profile, load_for_instrument
 from pshg_core import analyse_fov
 
 defaultDir = scriptDir + '\\Test data'
-initialDir = r'C:\Users\bs426\OneDrive - University of Exeter\!Work\Work.2024\Lab 2024\123D'
+initialDir = r'C:\Users\bs426\OneDrive - University of Exeter\!Work\Work.2026\Lab 2026\123D'
+if not os.path.isdir(initialDir):
+    initialDir = defaultDir
 defaultThreshold = 1e2
 
 (data_path, plotHistograms, pSHGFitViewer, plotPolarHistogram, arrowPlot,
