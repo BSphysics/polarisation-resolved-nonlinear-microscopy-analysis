@@ -1,0 +1,9 @@
+matplotlib
+natsort
+numpy
+pillow
+PyQt5
+scikit-image
+scipy
+tifffile
+xlsxwriter
